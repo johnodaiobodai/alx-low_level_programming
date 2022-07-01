@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <unistd.h>
+#include<unistd.h>
 /**
- * main - Prints out the last part of a quote in the standard error.
+ * main - prints the standrad error sandwiched around the  standard outpu/t
  *
- * Return: 1 if success.
+ * Return: returns 1
  */
 int main(void)
 {
