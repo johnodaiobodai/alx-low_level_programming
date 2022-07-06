@@ -1,8 +1,8 @@
-#include <stdio>
+#include <stdio.h>
 
 int main(void)
 {
-	char = alph
+	char alph;
 	
 	for (alph = 'a'; alph <= 'z'; ++alph)
 	{
