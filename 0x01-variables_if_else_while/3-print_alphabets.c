@@ -7,22 +7,22 @@
 
 int main(void)
 {
-	char alph;
-	char Alph;
+char alph;
+char Alph;
 	
-	for (alph = 'a'; alph <= 'z'; ++alph);
-	{
-		putchar(alph);
-	}
+for (alph = 'a'; alph <= 'z'; ++alph);
+{
+putchar(alph);
+}
 
-	for (Alph = 'A'; Alph <= 'Z'; ++ Alph);
-	{
-		putchar(Alph);
-	}
+for (Alph = 'A'; Alph <= 'Z'; ++ Alph);
+{
+putchar(Alph);
+}
 
-	putchar('\n');
+putchar('\n');
 
-	return (0);
+return (0);
 
 }
 
