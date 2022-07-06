@@ -3,7 +3,7 @@
 int main(void)
 {
 	char alph;
-	
+
 	for (alph = 'a'; alph <= 'z'; ++alph)
 	{
 		if (alph == 'q')
@@ -11,7 +11,6 @@ int main(void)
 		else if (alph == 'e')
 			continue;
 		putchar(alph);
-
 	}	
 
 	putchar('\n');
