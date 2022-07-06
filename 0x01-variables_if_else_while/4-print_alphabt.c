@@ -16,8 +16,7 @@ int main(void)
 		else if (alph == 'e')
 			continue;
 		putchar(alph);
-	}	
-
+	}
 	putchar('\n');
 
 	return (0);
