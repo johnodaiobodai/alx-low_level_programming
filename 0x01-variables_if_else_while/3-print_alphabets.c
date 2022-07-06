@@ -15,7 +15,7 @@ for (alph = 'a'; alph <= 'z'; ++alph);
 putchar(alph);
 }
 
-for (Alph = 'A'; Alph <= 'Z'; ++ Alph);
+for (Alph = 'A'; Alph <= 'Z'; ++Alph);
 {
 putchar(Alph);
 }
