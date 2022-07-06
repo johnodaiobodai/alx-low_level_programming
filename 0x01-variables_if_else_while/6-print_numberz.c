@@ -1,16 +1,21 @@
-#include <stdio>
-
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success/correct)
+ */
 int main(void)
+
 {
-	char alph;
+int i;
 
-	for (alph = z; alph <= a; --alph);
-	{
-		putchar(alph);
-	}
+for (i = 10 ; i >= 0; --i)
+{
+putchar (i);
+}
 
-	putchar("\n");
+putchar ('\n');
 
-	return (0);
+return (0);
 
 }
