@@ -1,8 +1,8 @@
-#include <stdio>
+#include <stdio.h>
 
 int main(void)
 {
-	int base10
+	int base10;
 
 	for (base10 = 0 ; base10 < 10 ; ++base10);
 	{
