@@ -2,27 +2,30 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (Sucess/correct)
  */
-
 int main(void)
+
 {
-char alph;
-char Alph;
-	
-for (alph = 'a'; alph <= 'z'; ++alph);
+char lower_case;
+char upper_case;
+
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 {
-putchar(alph);
+putchar(lower_case);
 }
 
-for (Alph = 'A'; Alph <= 'Z'; ++Alph);
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 {
-putchar(Alph);
+putchar(upper_case);
 }
 
-putchar('\n');
+
+
+
+putchar ('\n');
 
 return (0);
 
 }
-
